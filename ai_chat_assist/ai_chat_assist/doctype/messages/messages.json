@@ -1,0 +1,57 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-03 15:47:23.927227",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "user",
+  "message_type",
+  "column_break_akgr",
+  "time_stamp",
+  "message"
+ ],
+ "fields": [
+  {
+   "fieldname": "user",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "User"
+  },
+  {
+   "default": "Message",
+   "fieldname": "message_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Message Type",
+   "options": "Message\nAttachment"
+  },
+  {
+   "fieldname": "column_break_akgr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "time_stamp",
+   "fieldtype": "Data",
+   "label": "Time Stamp"
+  },
+  {
+   "fieldname": "message",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Message"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-01-04 15:03:07.769415",
+ "modified_by": "Administrator",
+ "module": "AI Chat Assist",
+ "name": "Messages",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
