@@ -4,4 +4,4 @@ AI Chat Assist
 
 #### License
 
-mit
+MIT
